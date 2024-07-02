@@ -1,15 +1,17 @@
 .header__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  outline: 1px solid black;
 }
 
 .header__container-link {
-  display: flex;
-}
-
-.container_logo_link-icon {
-  width: 26px;
-  height: 32px;    
+  & .container_logo_link-icon {
+    width: 95px;
+    height: 32px;    
+  } 
 }
 
 .header__container_menu {
@@ -18,7 +20,30 @@
     gap: 48px;
     & .menu__list-item {
       list-style: none;
+      font-weight: 700;
+      color: var(--main-text-color); 
     }
   }
+}
+
+.header__container_login {
+  display: inline-flex;
+  gap: 24px;
+  align-items: center;
+    & .container-login {
+      color: var(--main-text-color);
+      font-weight: 700;
+    }
+    & .container-signup {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 86px;
+      height: 36px;
+      background-color: var(--button-colors);
+      border-radius: 6px;
+      border: none;
+      color: #F0FDF4;
+    }
 }
 
