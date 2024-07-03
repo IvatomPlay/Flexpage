@@ -1,3 +1,9 @@
 @import url(header.css);
 @import url(cover.css);
 @import url(variables.css);
+
+/* обводка аутлайна, удалить вконце */
+
+.outlined {
+  outline: 1px solid black;
+}
