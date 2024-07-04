@@ -1,5 +1,7 @@
 :root {
   --main-text-color: #556987; 
+  --form-text-color: #FFFFFF;
+  --form-text-second-color: #8896AB;
   --button-colors: #22C55E;  
   --primary-panel-color: #2A3342;  
   --text-heading-size: 36px;
