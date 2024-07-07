@@ -1,0 +1,15 @@
+{
+  "name": "flexpage",
+  "version": "1.0.0",
+  "description": "Сверстано на основе готового бесплатного макета",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.3.2",
+    "stylelint": "^16.6.1"
+  }
+}
