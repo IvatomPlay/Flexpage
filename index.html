@@ -1,91 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex</title>
-  <link rel="stylesheet" href="./styles/global.css">
-  <link rel="stylesheet" href="./styles/index.css">
-</head>
-<body>
-  <header class="header outlined">
-    <div class="header__container outlined">
-      <a class="header__conainer_link" href="#"><img class="container_logo_link-icon" src="./assets/Logo.svg" alt="Flex logo"></a>
-      <nav class="header__container_menu">
-        <ul class="menu__list">
-          <li class="menu__list-item"><a href="#">Product</a></li>
-          <li class="menu__list-item"><a href="#">Feature</a></li>
-          <li class="menu__list-item"><a href="#">Pricing</a></li>
-          <li class="menu__list-item"><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-      <div class="header__container_login">
-        <a class="container-login" href="#">Log In</a>
-        <a class="container-signup" href="#">Sign up</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header outlined">
+      <div class="header__container outlined">
+        <a class="header__conainer_link" href="#"
+          ><img
+            class="container_logo_link-icon"
+            src="./assets/Logo.svg"
+            alt="Flex logo"
+        /></a>
+        <nav class="header__container_menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="#">Product</a></li>
+            <li class="menu__list-item"><a href="#">Feature</a></li>
+            <li class="menu__list-item"><a href="#">Pricing</a></li>
+            <li class="menu__list-item"><a href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <div class="header__container_login">
+          <a class="container-login" href="#">Log In</a>
+          <a class="container-signup" href="#">Sign up</a>
+        </div>
       </div>
-    </div>
-    <div class="signup__container">
-      <div class="form__text">
-        <h2 class="signup__header">header</h2>
-        <h1 class="form-title">A small business is only as good as its tools.</h1>
-        <p class="form-description">We are different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+      <div class="signup__container">
+        <div class="form__text">
+          <h2 class="signup__header">header</h2>
+          <h1 class="form-title">
+            A small business is only as good as its tools.
+          </h1>
+          <p class="form-description">
+            We are different. Flex is the only saas business platform that lets
+            you run your business on one platform, seamlessly across all digital
+            channels.
+          </p>
+        </div>
+        <form class="signup__form" action="#">
+          <label for="get_access" hidden="true">Enter your work email</label>
+          <input
+            class="get_access-inputfield"
+            id="get_access"
+            type="email"
+            placeholder="Enter your work email"
+          />
+          <button
+            class="get_access-button"
+            type="submit"
+            value="Get early access"
+          >
+            Get early access
+          </button>
+        </form>
       </div>
-      <form class="signup__form" action="#">
-        <label for="get_access" hidden="true">Enter your work email</label>
-        <input class="get_access-inputfield" id="get_access" type="email" placeholder="Enter your work email">
-        <button class="get_access-button" type="submit" value="Get early access">Get early access</button>
-      </form>
-    </div>
-    <div class="partners__container">
-      <p class="partners__container-text">Join 4,000+ companies already growing</p>
-      <div class="partners__container-icons">
-        <a href="#"><img class="partners__icon" src="./assets/jiggle.svg" alt="Jiggle company icon"></a>
-        <a href="#"><img class="partners__icon" src="./assets/symtric.svg" alt="Symtric company icon"></a>
-        <a href="#"><img class="partners__icon" src="./assets/wishelp.svg" alt="Wishelp company icon"></a>
-        <a href="#"><img class="partners__icon" src="./assets/resecurb.svg" alt="Resecurb company icon"></a>
-        <a href="#"><img class="partners__icon" src="./assets/welytics.svg" alt="Welytics company icon"></a>
+      <div class="partners__container">
+        <p class="partners__container-text">
+          Join 4,000+ companies already growing
+        </p>
+        <div class="partners__container-icons">
+          <a href="#"
+            ><img
+              class="partners__icon"
+              src="./assets/jiggle.svg"
+              alt="Jiggle company icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="partners__icon"
+              src="./assets/symtric.svg"
+              alt="Symtric company icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="partners__icon"
+              src="./assets/wishelp.svg"
+              alt="Wishelp company icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="partners__icon"
+              src="./assets/resecurb.svg"
+              alt="Resecurb company icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="partners__icon"
+              src="./assets/welytics.svg"
+              alt="Welytics company icon"
+          /></a>
+        </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <section class="features">
-      <div class="features__title">
-        <h2 class="signup__header">features</h2>
-        <h3>Gain more insight into how people use your</h3>
-        <p>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
-      </div>
-      <div class="features__description">
-        <ul class="features__description-list">
-          <li class="features__description-list-item">
-
-          </li>
-          <li class="features__description-list-item">
-            
-          </li>
-          <li class="features__description-list-item">
-
-          </li>
-          <li class="features__description-list-item">
-            
-          </li>
-          <li class="features__description-list-item">
-
-          </li>
-          <li class="features__description-list-item">
-
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-  </main>
-  <footer></footer>    
-</body>
+    </header>
+    <main>
+      <section class="features">
+        <div class="features__title">
+          <h2 class="signup__header">features</h2>
+          <h3>Gain more insight into how people use your</h3>
+          <p>
+            With our integrated CRM, project management, collaboration and
+            invoicing capabilities, you can manage every aspect of your business
+            in one secure platform.
+          </p>
+        </div>
+        <div class="features__description">
+          <ul class="features__description-list">
+            <li class="features__description-list-item"></li>
+            <li class="features__description-list-item"></li>
+            <li class="features__description-list-item"></li>
+            <li class="features__description-list-item"></li>
+            <li class="features__description-list-item"></li>
+            <li class="features__description-list-item"></li>
+          </ul>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

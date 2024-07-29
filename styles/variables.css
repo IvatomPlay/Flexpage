@@ -1,9 +1,9 @@
 :root {
-  --main-text-color: #556987; 
-  --form-text-color: #FFFFFF;
-  --form-text-second-color: #8896AB;
-  --button-colors: #22C55E;  
-  --primary-panel-color: #2A3342;  
+  --main-text-color: #556987;
+  --form-text-color: #ffffff;
+  --form-text-second-color: #8896ab;
+  --button-colors: #22c55e;
+  --primary-panel-color: #2a3342;
   --text-heading-size: 36px;
-  --partners-text-color: #BBC3CF;
+  --partners-text-color: #bbc3cf;
 }

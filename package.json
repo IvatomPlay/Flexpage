@@ -4,7 +4,11 @@
   "description": "Сверстано на основе готового бесплатного макета",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello\" && exit 1"
+    "test": "echo \"Hello\"",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix" 
   },
   "author": "",
   "license": "ISC",
