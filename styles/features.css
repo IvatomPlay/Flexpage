@@ -4,9 +4,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 48px;
   align-items: center;
   background-image: url(../assets/features_bg.jpg);
 }
 
+.features__title {
+  text-align: center;
+}
+
+.features__description-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 32px;
+}
+
 .features__description-list-item {
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  width: 359px;
+  height: 272px;
+  border: 1px solid blue;
+}
+
+.feature-icon {
+  width: 64px;
 }
